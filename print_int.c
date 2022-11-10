@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * print_int - this function print the integers
+ * @i: this part of list from the arguments
+ * Return: Always return the count
+ */
 int print_int(va_list i)
 {
 	int len, powten, j, digit, n, count = 0, num;

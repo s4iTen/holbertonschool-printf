@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * print_char - check the code
+ * @c: this is cariable char called 'c'
+ * Return: always 1
+ */
 int print_char(va_list c)
 {
 	unsigned char my_char;
@@ -10,7 +14,6 @@ int print_char(va_list c)
 }
 /**
  * print_porcentage - %
- *
  * Return: 1.
  */
 int print_porcentage(void)

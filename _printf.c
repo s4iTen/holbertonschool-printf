@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * find_function - check the code
+ * @format: this is cariable char called 'c'
+ * Return: always NULL
+ */
 int (*find_function(const char *format))(va_list)
 {
 	unsigned int i = 0;
@@ -19,7 +23,11 @@ int (*find_function(const char *format))(va_list)
 	}
 	return (NULL);
 }
-
+/**
+ * _printf - check the code
+ * @format: this is cariable char called 'c'
+ * Return: always count
+ */
 
 int _printf(const char *format, ...)
 {

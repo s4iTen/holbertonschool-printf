@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * print_str - check the code
+ * @s: this is cariable char called 's'
+ * Return: always the i counter
+ */
 int print_str(va_list s)
 {
 	char *str;
